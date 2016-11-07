@@ -4,7 +4,7 @@
 
 # Site
 title: zrliao blog
-subtitle: 廖仲仁的个人博客23333
+subtitle: 廖仲仁的个人博客
 description: 记录点滴生活
 author: zrliao
 language: zh-Hans
@@ -73,9 +73,3 @@ deploy:
   type: git
   repository: https://github.com/liaozr/liaozr.github.io.git
   branch: master
-
-backup:
-    type: git
-    repository:
-       github: git@github.com:liaozr/liaozr.github.io.git,master
-       gitcafe: git@github.com:liaozr/liaozr.github.io.git,master
